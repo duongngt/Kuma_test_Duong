@@ -106,19 +106,28 @@ body{
 	}
 	section{
 		.title_content{
-			text-align: center;
+			display: flex;
+			justify-content:center;
+			align-items: center;
 			margin:10.8rem 0 12.6rem;
-			color: #333333;
+			color: #333333;			
 			h3{
 				font-size: 6.8rem;
 				line-height: 6.8rem;
 				font-weight: normal;
 				margin:0 2rem;
 			}
-			h3::before,h3::after{
-				content: url("images/icon_1.png");
-				margin:0 4.5rem;
+			img{
+				width: 5.2rem;
+				height: 4.5rem;
 			}
+			/* h3::before,h3::after{
+				content: url("../images/icon_1.png");
+				margin:0 4.5rem;
+				display: inline-block;
+				background-size: 5rem;
+				width: 5.2rem;
+			} */
 		}
 		.content{
 			display: grid;
@@ -126,6 +135,7 @@ body{
 			display: -ms-grid;
 			-ms-grid-columns:1fr 1fr;
 			.content_01{
+				-ms-grid-column: 1 ;
 				position: relative;
 				z-index: 1;
 				img:first-child{
@@ -146,6 +156,7 @@ body{
 				}
 			}
 			.content_02{
+				-ms-grid-column: 2 ;
 				position: relative;
 				z-index: 2;
 				img:first-child{
@@ -165,6 +176,8 @@ body{
 				}
 			}
 			.content_03{
+				-ms-grid-column: 1 ;
+				-ms-grid-row:2;
 				position: relative;
 				z-index: 3;
 				img:first-child{
@@ -184,6 +197,8 @@ body{
 				}
 			}
 			.content_04{
+				-ms-grid-column: 2 ;
+				-ms-grid-row:2;
 				position: relative;
 				z-index: 3;
 				img:first-child{
@@ -203,6 +218,8 @@ body{
 				}
 			}
 			.content_05{
+				-ms-grid-column: 1;
+				-ms-grid-row:3;
 				position: relative;
 				z-index: 3;
 				img:first-child{
@@ -222,6 +239,8 @@ body{
 				}
 			}
 			.content_06{
+				-ms-grid-column:2;
+				-ms-grid-row:3;
 				position: relative;
 				z-index: 3;
 				img:first-child{
@@ -247,7 +266,8 @@ body{
 		display: flex;
 		justify-content: space-between;
 		margin: auto;
-		width: 192.4rem;margin-top: 43rem;
+		width: 192.4rem;
+		margin-top: 43rem;
 		.pmark,.news,.facebook{
 			width: 61rem;
 		}
@@ -400,7 +420,7 @@ body{
 				img:nth-child(1){
 					position: absolute;
 					top: -28.8rem;
-					right: 4rem;
+					right: 3.2rem;
 					width: 21.1rem;
 				}
 				img:nth-child(2){
@@ -431,10 +451,11 @@ body{
 				display: inline-block;
 				li{
 					float: left;
-					margin-right: 5.5rem;
+					margin-right: 6.2rem;
 					list-style: none;
 					img{
 						width: 2.4rem;
+						margin-right: 1.6rem;
 					}
 					a{
 						text-decoration: none;
@@ -452,7 +473,10 @@ body{
 			justify-content: center;			
 			align-items: center;
 			flex-direction:column;
-			>p{
+			img{
+				width: 31rem;
+			}
+			p{
 				font-size: 2.4rem;
 				color: #fff;
 				letter-spacing: 0.4rem;
