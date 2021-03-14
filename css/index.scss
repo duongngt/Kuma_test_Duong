@@ -28,6 +28,7 @@ body{
 	font-family: 'Noto Sans JP', sans-serif;
 	width: 248rem;
 	height: auto;
+	/* style header */
 	header{
 		width: 100%;
 		height: 20rem;
@@ -70,6 +71,7 @@ body{
 			}
 		}
 	}
+	/* style mainvisual */
 	div#mainvisual{
 		position: relative;
 		img.background{
@@ -104,6 +106,7 @@ body{
 		}
 
 	}
+	/* style section */
 	section{
 		.title_content{
 			display: flex;
@@ -261,6 +264,7 @@ body{
 			}
 		}
 	}
+	/* style cont */
 	.cont{
 		position: relative;
 		display: flex;
@@ -432,6 +436,7 @@ body{
 				}
 		}
 	}
+	/* style footer */
 	footer{
 		.stroll{
 			margin-top: 7rem;
