@@ -21,7 +21,7 @@
 				<li>アクセス</li>
 				<li>お問い合わせ</li>
 			</ul>
-			<div>
+			<div id="menu">
 				<img src="images/icon_menu.png" alt="icon menu">
 				<p>MENU</p>
 			</div>
@@ -184,7 +184,7 @@
 		</div>
 	</div>
 	<footer>
-		<div class="stroll">
+		<div class="stroll" onclick="(()=>{window.scrollTo(null, 0);})()">
 			<img src="images/chevron-up-solid.svg" alt="">
 			<p>scroll top</p>
 		</div>
@@ -224,6 +224,7 @@
 	</footer>
 </body>
 <script src="js/wow.min.js"></script>
+<script src="js/index.js"></script>
 <script>
 new WOW().init();
 </script>

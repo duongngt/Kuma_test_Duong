@@ -242,14 +242,15 @@ body {
         color: #fff;
         padding-left: 1.4rem;
         line-height: 6.4rem;
-        font-weight: normal; }
+        font-weight: normal;
+        letter-spacing: 0.6rem; }
     body .cont .pmark .title img:first-child {
       width: 19.5rem; }
     body .cont .pmark .title img:nth-child(2) {
       width: 39.9rem;
       right: 11rem; }
     body .cont .pmark div:nth-child(n+2) {
-      margin-top: 4rem; }
+      margin-top: 4.2rem; }
     body .cont .pmark div:nth-child(2) {
       text-align: center; }
       body .cont .pmark div:nth-child(2) img {
